@@ -1,18 +1,11 @@
-import React from 'react'
-import { DocsThemeConfig } from 'nextra-theme-docs'
-
-const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
-  project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
-  },
-  chat: {
-    link: 'https://discord.com',
-  },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
-  footer: {
-    text: 'Nextra Docs Template',
-  },
+import NextImage from 'next/image';
+export default {
+    logo: <NextImage
+        alt="Tickety"
+        width={210}
+        height={50}
+        src="/logo_text.webp"
+    />,
+    darkMode: false,
+    nextThemes: {defaultTheme: 'dark'},
 }
-
-export default config
