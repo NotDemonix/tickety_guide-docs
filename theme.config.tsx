@@ -8,4 +8,7 @@ export default {
     />,
     darkMode: false,
     nextThemes: {defaultTheme: 'dark'},
+    project: {
+        link: "https://tickety.top"
+    }
 }
