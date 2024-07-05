@@ -1,0 +1,26 @@
+## Rename Event
+
+- This event is fired when name of of a ticket has been changed !
+
+Aditional Fields:
+| Field Name | Field description                                      | Field Type |
+| ---------- | ------------------------------------------------------ | ---------- |
+| type       | Is set to "rename" for this event                      | string     |
+| newName    | The new name of the ticket                             | string     |
+
+### Example
+```json
+{
+    // Default
+    "customURL": "https://ticketywebhook.requestcatcher.com",
+    "guildId": "804846334346526752",
+    "guildName": "Tickety Support",
+    "channelId": "1140972530400776294",
+    "userId": "713115896805064856",
+    "userName": "oxytoan",
+    "panel": "Support",
+    // Priority Event
+    "type": "rename",
+    "newName": "partner-oxytoan"
+}
+```
