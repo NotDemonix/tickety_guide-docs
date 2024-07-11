@@ -1,0 +1,26 @@
+## Api Base
+
+**Every** post request from tickety will be based the same !
+
+| Field Name | Field description                                    | Field Type |
+| ---------- | ---------------------------------------------------- | ---------- |
+| customUrl  | The custom url set on the dashboard                  | string     |
+| guildId    | The Id of the guild where the request is sent from   | string     |
+| guildName  | The name of the guild where the request is sent from | string     |
+| channelId  | The Id of channel (ticket)                           | string     |
+| userId     | The Id of the user who created the ticket            | string     |
+| userName   | The username of the user who created the ticket      | string     |
+| panel      | The panel where the action was executed              | string     |
+
+### Example:
+```json
+{
+    "customURL": "https://ticketywebhook.requestcatcher.com",
+    "guildId": "804846334346526752",
+    "guildName": "Tickety Support",
+    "channelId": "1140972530400776294",
+    "userId": "713115896805064856",
+    "userName": "oxytoan",
+    "panel": "Support"
+}
+```
