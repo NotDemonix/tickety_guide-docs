@@ -1,0 +1,26 @@
+## Priority Event
+
+- This event is fired when the Priority of a ticket has been changed !
+
+Aditional Fields:
+| Field Name | Field description                                      | Field Type |
+| ---------- | ------------------------------------------------------ | ---------- |
+| type       | Is set to "priority" for this event                    | string     |
+| priority   | Can be 1, 2 or 3 (High, Medium, Low)                   | number     |
+
+### Example
+```json
+{
+    // Default
+    "customURL": "https://ticketywebhook.requestcatcher.com",
+    "guildId": "804846334346526752",
+    "guildName": "Tickety Support",
+    "channelId": "1140972530400776294",
+    "userId": "713115896805064856",
+    "userName": "oxytoan",
+    "panel": "Support",
+    // Priority Event
+    "type": "priority",
+    "priority": 1
+}
+```
