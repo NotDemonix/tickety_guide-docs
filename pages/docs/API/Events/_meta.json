@@ -1,6 +1,6 @@
 {
-    "Create": "Create",
-    "Close": "Close",
-    "Rename": "Rename",
-    "Priority": "Priority"
+    "create": "Create",
+    "close": "Close",
+    "rename": "Rename",
+    "priority": "Priority"
 }

@@ -1,4 +1,9 @@
 {
-    "index": "Guides Home",
-    "custom_bot": "Custom Bot"
+    "index": {
+        "name": "Home",
+        "theme": {
+            "pagination": false
+        }
+    },
+    "personalizer": "Custom Bot"
 }

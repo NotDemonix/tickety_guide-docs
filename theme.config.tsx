@@ -8,7 +8,14 @@ export default {
     />,
     darkMode: false,
     nextThemes: {defaultTheme: 'dark'},
-    project: {
-        link: "https://tickety.top"
-    }
+    feedback: {
+        content: null,
+    },
+    editLink: {
+        component: null,
+    },
+    footer: {
+        component: null,
+    },
+    navigation: true,
 }
