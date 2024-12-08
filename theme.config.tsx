@@ -1,4 +1,5 @@
 import NextImage from 'next/image';
+
 export default {
     logo: <NextImage
         alt="Tickety"
@@ -6,8 +7,11 @@ export default {
         height={50}
         src="/logo_text.webp"
     />,
+    project: {
+        link: "https://tickety.top/support",
+    },
     darkMode: false,
-    nextThemes: {defaultTheme: 'dark'},
+    nextThemes: { defaultTheme: 'dark' },
     feedback: {
         content: null,
     },
@@ -18,4 +22,5 @@ export default {
         component: null,
     },
     navigation: true,
+    gitTimestamp: null,
 }
