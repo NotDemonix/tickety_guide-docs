@@ -3,11 +3,12 @@
 ### Prerequisites
 
 Before we begin please make sure you meet the following requirements:
+
 - [x] Tickety Premium Subscription
 - [x] Custom Bot addon Subscription
 - [x] Have permissions to invite and add bots to your discord server
 
-import { Steps } from 'nextra/components'
+import { Steps } from "nextra/components";
 
 <Steps>
 ### Step 1: Creating your Discord App
@@ -30,7 +31,8 @@ You can also give your app a description which is visible to users of your disco
 ### Step 3: Configure App Installation
 
 We now need to go to the `Installation` tab in the app configuration to set up the installation method. These settings can cause errors if not configured correctly, so please be sure to check these settings;
-- **User Install:** `UnChecked`
+
+- **User Install:** `Unchecked`
 - **Guild Install:** `Checked`
 - **Install Link:** `None`
 
@@ -39,6 +41,7 @@ We now need to go to the `Installation` tab in the app configuration to set up t
 ### Step 4: App configuration on Discord
 
 Next head to the `Bot` tab in the app configuration and scroll down ensuring each of these are set correctly;
+
 - **Public Bot:** `Disabled`
 - **Server Members Intent:** `Enabled`
 - **Message Content Intent:** `Enabled`
@@ -51,7 +54,7 @@ Don't worry, you are doing great and almost done. Just a couple of more things a
 
 Head to your [Tickety Dashboard](https://tickety.top/dashboard) and head to the `Personalizer` tab for your server. Once you are there, fill out the token for your bot.
 
-![](/guide/personalizer/tickety_bot_config.png) 
+![](/guide/personalizer/tickety_bot_config.png)
 
 You obtain this from the [Discord Developer Portal](https://discord.com/developers/applications) in the `Bot` tab. You will see a button called **Reset Token** click this and copy the new token.
 
@@ -60,6 +63,7 @@ You obtain this from the [Discord Developer Portal](https://discord.com/develope
 Once you have done this make sure you have the Custom Bot enabled on the Tickety Dashboard and then click the Invite button. After you have done this just check to make sure it is on your discord server, has the neccesary permissions and responds to commands. If all of that is good you can safely remove the Tickety labelled bot.
 
 ![](/guide/personalizer/discord_bot_online.png)
+
 </Steps>
 
 Congratulations on setting up your custom bot!
